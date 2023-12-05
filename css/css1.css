@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    background: green;
+    background: url(Fahmi.jpg) no-repeat;
+    background-size: 40%;
+    background-position: right top; /* Add this line to move the background image to the right */
+}
+    
+
+.header{
+    position: fixed;
+    z-index: 100;
+    background: rgb(24, 213, 163);
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.berandaKonten span{
+    color: rgb(26, 255, 0);
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+    color:aqua;
+    font-family: fantasy;
+}
+
+.logo span{
+    color: blue;
+}
+
+
+.navBar a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-left: 35px;
+    font-family: 'Trubachet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navBar a:hover{
+    text-decoration: underline;
+    color: pink;
+}
+
+.beranda{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.berandaKonten{
+    margin-top: 20%;
+    background: transparent;
+    max-width: 500px;
+}
+
+.berandaKonten h1{
+    font-size: 60px;
+    font-family: 'Trubachet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.berandaKonten .button{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 50px;
+}
+
+.button a{
+    display: flex;
+    text-decoration: none;
+    color: teal;
+    width: 150px;
+    height: 100%;
+    align-items: center;
+    background-color: azure;
+    border-radius: 8px;
+    padding: 20px 10%;
+}
+
+.button a{
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.button a:hover{
+    color: antiquewhite;
+}
